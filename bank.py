@@ -11,6 +11,9 @@ class Bank(object):
 
     def withdraw_from(self, account_number, amount):
         if type(amount) == int:
-            return self.accounts.get(account_number) - amount
+            if self.accounts.get(account_number) - amount >= 0:
+                return self.accounts.get(account_number) - amount
+            else:
+                return 'Insufficient Funds'
         else:
             raise TypeError("Invalid type: {}".format(type(amount)))

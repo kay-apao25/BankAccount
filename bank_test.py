@@ -49,8 +49,17 @@ class BankTest(unittest.TestCase):
     def test_account_does_not_exists(self):
         bank = Bank()
         
-        self.assertIn(Account("003",20),bank.accounts )
- 
+        self.assertIn(Account("003",20),bank.accounts)
+
+    def test_withdraw_from_method_insufficient_amount(self):
+        bank = Bank()
+
+        account_2 = Account("002", 100)
+
+        bank.add_account(account_2)
+
+        #self.assertLess(bank.withdraw_from("002", 120), 0)
+        self.assertEqual('Insufficient Funds', bank.withdraw_from("002", 120)) 
   
 if __name__ == '__main__':
     unittest.main()
