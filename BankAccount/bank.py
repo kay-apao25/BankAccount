@@ -1,7 +1,7 @@
 class Bank(object):
     
     def __init__(self):
-        self.account = {}
+        self.accounts= {}
     
     def add_account(self, account):
         self.accounts[account.account_number] = account.balance
