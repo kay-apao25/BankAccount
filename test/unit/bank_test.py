@@ -45,9 +45,7 @@ class BankTest(unittest.TestCase):
 
         self.assertRaises(TypeError, self.bank.withdraw_from, "002", "50")
 
-    def test_account_does_not_exists(self):
-        
-        self.assertIn(Account("003",20),self.bank.accounts)
+
 
     def test_withdraw_from_method_insufficient_amount(self):
 
