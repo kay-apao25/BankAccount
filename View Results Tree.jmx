@@ -242,8 +242,14 @@
         <boolProp name="include_checkbox_state">false</boolProp>
         <boolProp name="exclude_checkbox_state">false</boolProp>
         <collectionProp name="COMPOSITE_CFG">
-          <collectionProp name=""/>
-          <collectionProp name=""/>
+          <collectionProp name="">
+            <stringProp name="1267279877">jp@gc - Transactions per Second</stringProp>
+            <stringProp name="-243013315">jp@gc - Response Times Over Time</stringProp>
+          </collectionProp>
+          <collectionProp name="">
+            <stringProp name="-914294107">HTTP Request (success)</stringProp>
+            <stringProp name="-1549391110">Overall Response Times</stringProp>
+          </collectionProp>
         </collectionProp>
       </kg.apc.jmeter.vizualizers.CompositeResultCollector>
       <hashTree/>

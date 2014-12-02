@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request
 from account import Account
 from bank import Bank
+from pycallgraph import *
+
 app = Flask(__name__)
 
 BANK = Bank()
