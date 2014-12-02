@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20141126 19:45:49.776" generator="Robot 2.8.4 (Python 2.7.6 on linux2)">
+<suite source="/home/kay/Documents/python/bank/test/bdd/robot" id="s1" name="Robot">
+<suite source="/home/kay/Documents/python/bank/test/bdd/robot/tests" id="s1-s1" name="Tests">
+<suite source="/home/kay/Documents/python/bank/test/bdd/robot/tests/bank.txt" id="s1-s1-s1" name="Bank">
+<test id="s1-s1-s1-t1" name="Retrieve customer balance">
+<kw type="kw" name="Given I create the account 1111 with balance 50">
+<doc></doc>
+<arguments>
+</arguments>
+<msg timestamp="20141126 19:45:49.825" level="FAIL">No keyword with name 'Given I create the account 1111 with balance 50' found.</msg>
+<status status="FAIL" endtime="20141126 19:45:49.825" starttime="20141126 19:45:49.824"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" endtime="20141126 19:45:49.825" critical="yes" starttime="20141126 19:45:49.823">No keyword with name 'Given I create the account 1111 with balance 50' found.</status>
+</test>
+<doc>Example Robot tests for
+Bank application</doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20141126 19:45:49.826" starttime="20141126 19:45:49.818"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20141126 19:45:49.827" starttime="20141126 19:45:49.815"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20141126 19:45:49.827" starttime="20141126 19:45:49.777"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" pass="0" id="s1" name="Robot">Robot</stat>
+<stat fail="1" pass="0" id="s1-s1" name="Tests">Robot.Tests</stat>
+<stat fail="1" pass="0" id="s1-s1-s1" name="Bank">Robot.Tests.Bank</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20141126 19:45:49.822" level="ERROR">Error in file '/home/kay/Documents/python/bank/test/bdd/robot/tests/bank.txt': Resource file '../steps/resource.txt' does not exist.</msg>
+<msg timestamp="20141126 19:45:49.822" level="ERROR">Error in file '/home/kay/Documents/python/bank/test/bdd/robot/tests/bank.txt': Resource file '../steps/steps.txt' does not exist.</msg>
+</errors>
+</robot>

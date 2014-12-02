@@ -1,0 +1,941 @@
+2014/12/02 13:47:23 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_PH 
+2014/12/02 13:47:24 INFO  - jmeter.JMeter: Loading user properties from: /usr/share/jmeter/bin/user.properties 
+2014/12/02 13:47:24 INFO  - jmeter.JMeter: Loading system properties from: /usr/share/jmeter/bin/system.properties 
+2014/12/02 13:47:24 INFO  - jmeter.JMeter: Copyright (c) 1998-2012 The Apache Software Foundation 
+2014/12/02 13:47:24 INFO  - jmeter.JMeter: Version 2.8.20130705 
+2014/12/02 13:47:24 INFO  - jmeter.JMeter: java.version=1.7.0_65 
+2014/12/02 13:47:24 INFO  - jmeter.JMeter: java.vm.name=OpenJDK Server VM 
+2014/12/02 13:47:24 INFO  - jmeter.JMeter: os.name=Linux 
+2014/12/02 13:47:24 INFO  - jmeter.JMeter: os.arch=i386 
+2014/12/02 13:47:24 INFO  - jmeter.JMeter: os.version=3.13.0-32-generic 
+2014/12/02 13:47:24 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2014/12/02 13:47:24 INFO  - jmeter.JMeter: Default Locale=English (Philippines) 
+2014/12/02 13:47:24 INFO  - jmeter.JMeter: JMeter  Locale=English (Philippines) 
+2014/12/02 13:47:24 INFO  - jmeter.JMeter: JMeterHome=/usr/share/jmeter 
+2014/12/02 13:47:24 INFO  - jmeter.JMeter: user.dir  =/home/kay/Documents/python/bank 
+2014/12/02 13:47:24 INFO  - jmeter.JMeter: PWD       =/home/kay/Documents/python/bank 
+2014/12/02 13:47:24 INFO  - jmeter.JMeter: IP: 127.0.1.1 Name: kay-Aspire-4736Z FullName: kay-Aspire-4736Z 
+2014/12/02 13:47:24 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2014/12/02 13:47:24 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2014/12/02 13:47:24 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2014/12/02 13:47:25 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: javax.swing.plaf.metal.MetalLookAndFeel [Metal, CrossPlatform, System] 
+2014/12/02 13:47:27 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
+2014/12/02 13:47:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
+2014/12/02 13:47:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
+2014/12/02 13:47:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
+2014/12/02 13:47:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
+2014/12/02 13:47:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
+2014/12/02 13:47:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2014/12/02 13:47:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Reuse SSL session context on subsequent iterations: true 
+2014/12/02 13:47:27 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.http.modifier.gui.ParamModifierGui 
+2014/12/02 13:47:28 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2014/12/02 13:47:28 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2014/12/02 13:47:28 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2014/12/02 13:47:28 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2014/12/02 13:47:54 INFO  - jmeter.services.FileServer: Default base='/home/kay/Documents/python/bank' 
+2014/12/02 13:47:54 INFO  - jmeter.gui.action.Load: Loading file: /home/kay/Documents/python/bank/View Results Tree.jmx 
+2014/12/02 13:47:54 INFO  - jmeter.services.FileServer: Set new base='/home/kay/Documents/python/bank' 
+2014/12/02 13:47:54 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2014/12/02 13:47:54 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2014/12/02 13:47:54 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1382180 
+2014/12/02 13:47:54 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.3 
+2014/12/02 13:47:54 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2014/12/02 13:47:55 INFO  - jmeter.services.FileServer: Set new base='/home/kay/Documents/python/bank' 
+2014/12/02 13:48:39 INFO  - jmeter.engine.StandardJMeterEngine: Listeners will be started after enabling running version 
+2014/12/02 13:48:39 INFO  - jmeter.engine.StandardJMeterEngine: To revert to the earlier behaviour, define jmeterengine.startlistenerslater=false 
+2014/12/02 13:48:39 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2014/12/02 13:48:39 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2014/12/02 13:48:40 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2014/12/02 13:48:40 INFO  - jmeter.engine.StandardJMeterEngine: Starting 20 threads for group Thread Group. 
+2014/12/02 13:48:40 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2014/12/02 13:48:40 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 20 ramp-up 0 perThread 0.0 delayedStart=false 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-6 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-7 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-8 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-9 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-10 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-11 
+2014/12/02 13:48:40 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2014/12/02 13:48:40 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-12 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-20 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-15 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-14 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-16 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-18 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-17 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-19 
+2014/12/02 13:48:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-13 
+2014/12/02 13:48:40 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = kay-Aspire-4736Z 
+2014/12/02 13:48:40 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 1 
+2014/12/02 13:48:40 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: Setting up HTTPS TrustAll scheme 
+2014/12/02 13:48:40 INFO  - jmeter.util.JsseSSLManager: Using default SSL protocol: TLS 
+2014/12/02 13:48:40 INFO  - jmeter.util.JsseSSLManager: SSL session context: per-thread 
+2014/12/02 13:50:16 INFO  - jmeter.gui.action.Start: Stopping test 
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-4 
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-3 
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-10 
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-20 
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-11 
+2014/12/02 13:50:16 WARN  - jmeter.util.JMeterUtils: Interrupted in thread Thread Group 1-4 java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1270)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1251)
+	at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1347)
+	at org.apache.jmeter.util.JMeterUtils.runSafe(JMeterUtils.java:1292)
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.add(ViewResultsFullVisualizer.java:126)
+	at org.apache.jmeter.reporters.ResultCollector.sendToVisualizer(ResultCollector.java:518)
+	at org.apache.jmeter.reporters.ResultCollector.sampleOccurred(ResultCollector.java:494)
+	at org.apache.jmeter.threads.ListenerNotifier.notifyListeners(ListenerNotifier.java:84)
+	at org.apache.jmeter.threads.JMeterThread.notifyListeners(JMeterThread.java:774)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:440)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-16 
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-18 
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-15 
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-8 
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-13 
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-6 
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-2 
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-12 
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-7 
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-19 
+2014/12/02 13:50:16 WARN  - jmeter.util.JMeterUtils: Interrupted in thread Thread Group 1-13 java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1270)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1251)
+	at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1347)
+	at org.apache.jmeter.util.JMeterUtils.runSafe(JMeterUtils.java:1292)
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.add(ViewResultsFullVisualizer.java:126)
+	at org.apache.jmeter.reporters.ResultCollector.sendToVisualizer(ResultCollector.java:518)
+	at org.apache.jmeter.reporters.ResultCollector.sampleOccurred(ResultCollector.java:494)
+	at org.apache.jmeter.threads.ListenerNotifier.notifyListeners(ListenerNotifier.java:84)
+	at org.apache.jmeter.threads.JMeterThread.notifyListeners(JMeterThread.java:774)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:440)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-13 
+2014/12/02 13:50:16 WARN  - jmeter.util.JMeterUtils: Interrupted in thread Thread Group 1-6 java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1270)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1251)
+	at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1347)
+	at org.apache.jmeter.util.JMeterUtils.runSafe(JMeterUtils.java:1292)
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.add(ViewResultsFullVisualizer.java:126)
+	at org.apache.jmeter.reporters.ResultCollector.sendToVisualizer(ResultCollector.java:518)
+	at org.apache.jmeter.reporters.ResultCollector.sampleOccurred(ResultCollector.java:494)
+	at org.apache.jmeter.threads.ListenerNotifier.notifyListeners(ListenerNotifier.java:84)
+	at org.apache.jmeter.threads.JMeterThread.notifyListeners(JMeterThread.java:774)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:440)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-6 
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2014/12/02 13:50:16 WARN  - jmeter.util.JMeterUtils: Interrupted in thread Thread Group 1-12 java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1270)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1251)
+	at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1347)
+	at org.apache.jmeter.util.JMeterUtils.runSafe(JMeterUtils.java:1292)
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.add(ViewResultsFullVisualizer.java:126)
+	at org.apache.jmeter.reporters.ResultCollector.sendToVisualizer(ResultCollector.java:518)
+	at org.apache.jmeter.reporters.ResultCollector.sampleOccurred(ResultCollector.java:494)
+	at org.apache.jmeter.threads.ListenerNotifier.notifyListeners(ListenerNotifier.java:84)
+	at org.apache.jmeter.threads.JMeterThread.notifyListeners(JMeterThread.java:774)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:440)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-12 
+2014/12/02 13:50:16 WARN  - jmeter.util.JMeterUtils: Interrupted in thread Thread Group 1-19 java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1270)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1251)
+	at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1347)
+	at org.apache.jmeter.util.JMeterUtils.runSafe(JMeterUtils.java:1292)
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.add(ViewResultsFullVisualizer.java:126)
+	at org.apache.jmeter.reporters.ResultCollector.sendToVisualizer(ResultCollector.java:518)
+	at org.apache.jmeter.reporters.ResultCollector.sampleOccurred(ResultCollector.java:494)
+	at org.apache.jmeter.threads.ListenerNotifier.notifyListeners(ListenerNotifier.java:84)
+	at org.apache.jmeter.threads.JMeterThread.notifyListeners(JMeterThread.java:774)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:440)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-19 
+2014/12/02 13:50:16 WARN  - jmeter.util.JMeterUtils: Interrupted in thread Thread Group 1-2 java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1270)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1251)
+	at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1347)
+	at org.apache.jmeter.util.JMeterUtils.runSafe(JMeterUtils.java:1292)
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.add(ViewResultsFullVisualizer.java:126)
+	at org.apache.jmeter.reporters.ResultCollector.sendToVisualizer(ResultCollector.java:518)
+	at org.apache.jmeter.reporters.ResultCollector.sampleOccurred(ResultCollector.java:494)
+	at org.apache.jmeter.threads.ListenerNotifier.notifyListeners(ListenerNotifier.java:84)
+	at org.apache.jmeter.threads.JMeterThread.notifyListeners(JMeterThread.java:774)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:440)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2014/12/02 13:50:16 WARN  - jmeter.util.JMeterUtils: Interrupted in thread Thread Group 1-7 java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1270)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1251)
+	at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1347)
+	at org.apache.jmeter.util.JMeterUtils.runSafe(JMeterUtils.java:1292)
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.add(ViewResultsFullVisualizer.java:126)
+	at org.apache.jmeter.reporters.ResultCollector.sendToVisualizer(ResultCollector.java:518)
+	at org.apache.jmeter.reporters.ResultCollector.sampleOccurred(ResultCollector.java:494)
+	at org.apache.jmeter.threads.ListenerNotifier.notifyListeners(ListenerNotifier.java:84)
+	at org.apache.jmeter.threads.JMeterThread.notifyListeners(JMeterThread.java:774)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:440)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-7 
+2014/12/02 13:50:16 WARN  - jmeter.util.JMeterUtils: Interrupted in thread Thread Group 1-8 java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1270)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1251)
+	at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1347)
+	at org.apache.jmeter.util.JMeterUtils.runSafe(JMeterUtils.java:1292)
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.add(ViewResultsFullVisualizer.java:126)
+	at org.apache.jmeter.reporters.ResultCollector.sendToVisualizer(ResultCollector.java:518)
+	at org.apache.jmeter.reporters.ResultCollector.sampleOccurred(ResultCollector.java:494)
+	at org.apache.jmeter.threads.ListenerNotifier.notifyListeners(ListenerNotifier.java:84)
+	at org.apache.jmeter.threads.JMeterThread.notifyListeners(JMeterThread.java:774)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:440)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-8 
+2014/12/02 13:50:16 WARN  - jmeter.util.JMeterUtils: Interrupted in thread Thread Group 1-15 java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1270)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1251)
+	at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1347)
+	at org.apache.jmeter.util.JMeterUtils.runSafe(JMeterUtils.java:1292)
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.add(ViewResultsFullVisualizer.java:126)
+	at org.apache.jmeter.reporters.ResultCollector.sendToVisualizer(ResultCollector.java:518)
+	at org.apache.jmeter.reporters.ResultCollector.sampleOccurred(ResultCollector.java:494)
+	at org.apache.jmeter.threads.ListenerNotifier.notifyListeners(ListenerNotifier.java:84)
+	at org.apache.jmeter.threads.JMeterThread.notifyListeners(JMeterThread.java:774)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:440)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-15 
+2014/12/02 13:50:16 WARN  - jmeter.util.JMeterUtils: Interrupted in thread Thread Group 1-18 java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1270)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1251)
+	at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1347)
+	at org.apache.jmeter.util.JMeterUtils.runSafe(JMeterUtils.java:1292)
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.add(ViewResultsFullVisualizer.java:126)
+	at org.apache.jmeter.reporters.ResultCollector.sendToVisualizer(ResultCollector.java:518)
+	at org.apache.jmeter.reporters.ResultCollector.sampleOccurred(ResultCollector.java:494)
+	at org.apache.jmeter.threads.ListenerNotifier.notifyListeners(ListenerNotifier.java:84)
+	at org.apache.jmeter.threads.JMeterThread.notifyListeners(JMeterThread.java:774)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:440)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-18 
+2014/12/02 13:50:16 WARN  - jmeter.util.JMeterUtils: Interrupted in thread Thread Group 1-16 java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1270)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1251)
+	at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1347)
+	at org.apache.jmeter.util.JMeterUtils.runSafe(JMeterUtils.java:1292)
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.add(ViewResultsFullVisualizer.java:126)
+	at org.apache.jmeter.reporters.ResultCollector.sendToVisualizer(ResultCollector.java:518)
+	at org.apache.jmeter.reporters.ResultCollector.sampleOccurred(ResultCollector.java:494)
+	at org.apache.jmeter.threads.ListenerNotifier.notifyListeners(ListenerNotifier.java:84)
+	at org.apache.jmeter.threads.JMeterThread.notifyListeners(JMeterThread.java:774)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:440)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-16 
+2014/12/02 13:50:16 WARN  - jmeter.util.JMeterUtils: Interrupted in thread Thread Group 1-11 java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1270)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1251)
+	at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1347)
+	at org.apache.jmeter.util.JMeterUtils.runSafe(JMeterUtils.java:1292)
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.add(ViewResultsFullVisualizer.java:126)
+	at org.apache.jmeter.reporters.ResultCollector.sendToVisualizer(ResultCollector.java:518)
+	at org.apache.jmeter.reporters.ResultCollector.sampleOccurred(ResultCollector.java:494)
+	at org.apache.jmeter.threads.ListenerNotifier.notifyListeners(ListenerNotifier.java:84)
+	at org.apache.jmeter.threads.JMeterThread.notifyListeners(JMeterThread.java:774)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:440)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-11 
+2014/12/02 13:50:16 WARN  - jmeter.util.JMeterUtils: Interrupted in thread Thread Group 1-20 java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1270)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1251)
+	at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1347)
+	at org.apache.jmeter.util.JMeterUtils.runSafe(JMeterUtils.java:1292)
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.add(ViewResultsFullVisualizer.java:126)
+	at org.apache.jmeter.reporters.ResultCollector.sendToVisualizer(ResultCollector.java:518)
+	at org.apache.jmeter.reporters.ResultCollector.sampleOccurred(ResultCollector.java:494)
+	at org.apache.jmeter.threads.ListenerNotifier.notifyListeners(ListenerNotifier.java:84)
+	at org.apache.jmeter.threads.JMeterThread.notifyListeners(JMeterThread.java:774)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:440)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-20 
+2014/12/02 13:50:16 WARN  - jmeter.util.JMeterUtils: Interrupted in thread Thread Group 1-10 java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1270)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1251)
+	at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1347)
+	at org.apache.jmeter.util.JMeterUtils.runSafe(JMeterUtils.java:1292)
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.add(ViewResultsFullVisualizer.java:126)
+	at org.apache.jmeter.reporters.ResultCollector.sendToVisualizer(ResultCollector.java:518)
+	at org.apache.jmeter.reporters.ResultCollector.sampleOccurred(ResultCollector.java:494)
+	at org.apache.jmeter.threads.ListenerNotifier.notifyListeners(ListenerNotifier.java:84)
+	at org.apache.jmeter.threads.JMeterThread.notifyListeners(JMeterThread.java:774)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:440)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-10 
+2014/12/02 13:50:16 WARN  - jmeter.util.JMeterUtils: Interrupted in thread Thread Group 1-3 java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1270)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1251)
+	at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1347)
+	at org.apache.jmeter.util.JMeterUtils.runSafe(JMeterUtils.java:1292)
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.add(ViewResultsFullVisualizer.java:126)
+	at org.apache.jmeter.reporters.ResultCollector.sendToVisualizer(ResultCollector.java:518)
+	at org.apache.jmeter.reporters.ResultCollector.sampleOccurred(ResultCollector.java:494)
+	at org.apache.jmeter.threads.ListenerNotifier.notifyListeners(ListenerNotifier.java:84)
+	at org.apache.jmeter.threads.JMeterThread.notifyListeners(JMeterThread.java:774)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:440)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-14 
+2014/12/02 13:50:16 WARN  - jmeter.util.JMeterUtils: Interrupted in thread Thread Group 1-14 java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1270)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1251)
+	at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1347)
+	at org.apache.jmeter.util.JMeterUtils.runSafe(JMeterUtils.java:1292)
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.add(ViewResultsFullVisualizer.java:126)
+	at org.apache.jmeter.reporters.ResultCollector.sendToVisualizer(ResultCollector.java:518)
+	at org.apache.jmeter.reporters.ResultCollector.sampleOccurred(ResultCollector.java:494)
+	at org.apache.jmeter.threads.ListenerNotifier.notifyListeners(ListenerNotifier.java:84)
+	at org.apache.jmeter.threads.JMeterThread.notifyListeners(JMeterThread.java:774)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:440)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-14 
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-5 
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-1 
+2014/12/02 13:50:16 WARN  - jmeter.util.JMeterUtils: Interrupted in thread Thread Group 1-5 java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1270)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1251)
+	at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1347)
+	at org.apache.jmeter.util.JMeterUtils.runSafe(JMeterUtils.java:1292)
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.add(ViewResultsFullVisualizer.java:126)
+	at org.apache.jmeter.reporters.ResultCollector.sendToVisualizer(ResultCollector.java:518)
+	at org.apache.jmeter.reporters.ResultCollector.sampleOccurred(ResultCollector.java:494)
+	at org.apache.jmeter.threads.ListenerNotifier.notifyListeners(ListenerNotifier.java:84)
+	at org.apache.jmeter.threads.JMeterThread.notifyListeners(JMeterThread.java:774)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:440)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-17 
+2014/12/02 13:50:16 WARN  - jmeter.util.JMeterUtils: Interrupted in thread Thread Group 1-1 java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1270)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1251)
+	at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1347)
+	at org.apache.jmeter.util.JMeterUtils.runSafe(JMeterUtils.java:1292)
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.add(ViewResultsFullVisualizer.java:126)
+	at org.apache.jmeter.reporters.ResultCollector.sendToVisualizer(ResultCollector.java:518)
+	at org.apache.jmeter.reporters.ResultCollector.sampleOccurred(ResultCollector.java:494)
+	at org.apache.jmeter.threads.ListenerNotifier.notifyListeners(ListenerNotifier.java:84)
+	at org.apache.jmeter.threads.JMeterThread.notifyListeners(JMeterThread.java:774)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:440)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-9 
+2014/12/02 13:50:16 WARN  - jmeter.util.JMeterUtils: Interrupted in thread Thread Group 1-17 java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1270)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1251)
+	at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1347)
+	at org.apache.jmeter.util.JMeterUtils.runSafe(JMeterUtils.java:1292)
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.add(ViewResultsFullVisualizer.java:126)
+	at org.apache.jmeter.reporters.ResultCollector.sendToVisualizer(ResultCollector.java:518)
+	at org.apache.jmeter.reporters.ResultCollector.sampleOccurred(ResultCollector.java:494)
+	at org.apache.jmeter.threads.ListenerNotifier.notifyListeners(ListenerNotifier.java:84)
+	at org.apache.jmeter.threads.JMeterThread.notifyListeners(JMeterThread.java:774)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:440)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-17 
+2014/12/02 13:50:16 WARN  - jmeter.util.JMeterUtils: Interrupted in thread Thread Group 1-9 java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1270)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1251)
+	at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1347)
+	at org.apache.jmeter.util.JMeterUtils.runSafe(JMeterUtils.java:1292)
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.add(ViewResultsFullVisualizer.java:126)
+	at org.apache.jmeter.reporters.ResultCollector.sendToVisualizer(ResultCollector.java:518)
+	at org.apache.jmeter.reporters.ResultCollector.sampleOccurred(ResultCollector.java:494)
+	at org.apache.jmeter.threads.ListenerNotifier.notifyListeners(ListenerNotifier.java:84)
+	at org.apache.jmeter.threads.JMeterThread.notifyListeners(JMeterThread.java:774)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:440)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-9 
+2014/12/02 13:50:16 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2014/12/02 13:50:16 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2014/12/02 13:50:17 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2014/12/02 13:50:17 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2014/12/02 13:50:17 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2014/12/02 13:50:17 INFO  - jmeter.engine.StandardJMeterEngine: Starting 20 threads for group Thread Group. 
+2014/12/02 13:50:17 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2014/12/02 13:50:17 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 20 ramp-up 0 perThread 0.0 delayedStart=false 
+2014/12/02 13:50:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2014/12/02 13:50:17 WARN  - kg.apc.jmeter.timers.VariableThroughputTimer: No free threads left in worker pool, made  0/5.0 samples 
+2014/12/02 13:50:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2014/12/02 13:50:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2014/12/02 13:50:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2014/12/02 13:50:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-6 
+2014/12/02 13:50:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2014/12/02 13:50:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-7 
+2014/12/02 13:50:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-8 
+2014/12/02 13:50:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-9 
+2014/12/02 13:50:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-11 
+2014/12/02 13:50:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-12 
+2014/12/02 13:50:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-13 
+2014/12/02 13:50:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-10 
+2014/12/02 13:50:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-14 
+2014/12/02 13:50:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-15 
+2014/12/02 13:50:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-16 
+2014/12/02 13:50:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-17 
+2014/12/02 13:50:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-18 
+2014/12/02 13:50:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-19 
+2014/12/02 13:50:17 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2014/12/02 13:50:17 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2014/12/02 13:50:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-20 
+2014/12/02 13:50:25 INFO  - jmeter.gui.action.Start: Stopping test 
+2014/12/02 13:50:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-16 
+2014/12/02 13:50:25 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-14 
+2014/12/02 13:50:25 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-9 
+2014/12/02 13:50:25 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-10 
+2014/12/02 13:50:25 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-3 
+2014/12/02 13:50:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-4 
+2014/12/02 13:50:25 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-15 
+2014/12/02 13:50:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-20 
+2014/12/02 13:50:25 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-17 
+2014/12/02 13:50:25 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-12 
+2014/12/02 13:50:25 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-11 
+2014/12/02 13:50:25 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-8 
+2014/12/02 13:50:25 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:25 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-1 
+2014/12/02 13:50:25 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-5 
+2014/12/02 13:50:25 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-19 
+2014/12/02 13:50:25 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-13 
+2014/12/02 13:50:25 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-7 
+2014/12/02 13:50:25 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-18 
+2014/12/02 13:50:25 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:25 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-6 
+2014/12/02 13:50:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-2 
+2014/12/02 13:50:25 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:25 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:50:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-16 
+2014/12/02 13:50:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-9 
+2014/12/02 13:50:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-14 
+2014/12/02 13:50:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-10 
+2014/12/02 13:50:32 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2014/12/02 13:50:32 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-20 
+2014/12/02 13:50:32 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2014/12/02 13:50:32 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-17 
+2014/12/02 13:50:34 WARN  - jmeter.threads.ThreadGroup: Thread won't exit: Thread Group 1-3 
+2014/12/02 13:50:35 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-15 
+2014/12/02 13:50:37 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-19 
+2014/12/02 13:50:37 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-8 
+2014/12/02 13:50:39 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2014/12/02 13:50:40 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-12 
+2014/12/02 13:50:40 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-7 
+2014/12/02 13:50:40 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-13 
+2014/12/02 13:50:40 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-11 
+2014/12/02 13:50:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-18 
+2014/12/02 13:50:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2014/12/02 13:50:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-6 
+2014/12/02 13:50:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2014/12/02 13:50:41 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2014/12/02 13:50:41 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2014/12/02 13:50:43 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2014/12/02 13:50:43 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2014/12/02 13:50:44 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2014/12/02 13:50:44 INFO  - jmeter.engine.StandardJMeterEngine: Starting 20 threads for group Thread Group. 
+2014/12/02 13:50:44 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2014/12/02 13:50:44 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 20 ramp-up 0 perThread 0.0 delayedStart=false 
+2014/12/02 13:50:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2014/12/02 13:50:44 WARN  - kg.apc.jmeter.timers.VariableThroughputTimer: No free threads left in worker pool, made  0/5.0 samples 
+2014/12/02 13:50:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2014/12/02 13:50:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2014/12/02 13:50:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2014/12/02 13:50:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2014/12/02 13:50:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-6 
+2014/12/02 13:50:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-7 
+2014/12/02 13:50:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-8 
+2014/12/02 13:50:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-9 
+2014/12/02 13:50:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-10 
+2014/12/02 13:50:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-11 
+2014/12/02 13:50:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-12 
+2014/12/02 13:50:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-13 
+2014/12/02 13:50:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-14 
+2014/12/02 13:50:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-15 
+2014/12/02 13:50:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-16 
+2014/12/02 13:50:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-17 
+2014/12/02 13:50:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-18 
+2014/12/02 13:50:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-19 
+2014/12/02 13:50:44 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2014/12/02 13:50:44 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2014/12/02 13:50:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-20 
+2014/12/02 13:51:12 INFO  - jmeter.gui.action.Load: Loading file: /home/kay/Documents/python/bank/View Results Tree.jmx 
+2014/12/02 13:51:12 INFO  - jmeter.services.FileServer: Set new base='/home/kay/Documents/python/bank' 
+2014/12/02 13:51:12 INFO  - jmeter.services.FileServer: Set new base='/home/kay/Documents/python/bank' 
+2014/12/02 13:51:20 INFO  - jmeter.gui.action.Start: Stopping test 
+2014/12/02 13:51:20 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-6 
+2014/12/02 13:51:20 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:51:20 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-13 
+2014/12/02 13:51:20 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-12 
+2014/12/02 13:51:20 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:51:20 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-18 
+2014/12/02 13:51:20 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:51:20 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-1 
+2014/12/02 13:51:20 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-10 
+2014/12/02 13:51:20 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:51:20 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-14 
+2014/12/02 13:51:20 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:51:20 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-3 
+2014/12/02 13:51:20 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:51:20 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-16 
+2014/12/02 13:51:20 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:51:20 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-2 
+2014/12/02 13:51:20 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:51:20 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-9 
+2014/12/02 13:51:20 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:51:20 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:51:20 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:51:20 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-4 
+2014/12/02 13:51:20 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:51:20 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-15 
+2014/12/02 13:51:20 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:51:20 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-7 
+2014/12/02 13:51:20 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-11 
+2014/12/02 13:51:20 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-20 
+2014/12/02 13:51:20 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-17 
+2014/12/02 13:51:20 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-8 
+2014/12/02 13:51:20 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-5 
+2014/12/02 13:51:20 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-19 
+2014/12/02 13:51:20 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:51:20 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:51:20 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:51:20 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:51:20 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:51:20 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:51:20 ERROR - kg.apc.jmeter.timers.VariableThroughputTimer: Waiting thread was interrupted java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at kg.apc.jmeter.timers.VariableThroughputTimer.delay(VariableThroughputTimer.java:85)
+	at org.apache.jmeter.threads.JMeterThread.delay(JMeterThread.java:749)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014/12/02 13:51:20 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-6 
+2014/12/02 13:51:24 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-12 
+2014/12/02 13:51:25 WARN  - jmeter.threads.ThreadGroup: Thread won't exit: Thread Group 1-13 
+2014/12/02 13:51:27 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-10 
+2014/12/02 13:51:27 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-18 
+2014/12/02 13:51:27 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-14 
+2014/12/02 13:51:27 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2014/12/02 13:51:30 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2014/12/02 13:51:30 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-13 
+2014/12/02 13:51:30 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2014/12/02 13:51:32 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-16 
+2014/12/02 13:51:32 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-9 
+2014/12/02 13:51:32 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2014/12/02 13:51:32 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-15 
+2014/12/02 13:51:34 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-7 
+2014/12/02 13:51:35 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-11 
+2014/12/02 13:51:35 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-20 
+2014/12/02 13:51:36 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-8 
+2014/12/02 13:51:36 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-19 
+2014/12/02 13:51:36 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2014/12/02 13:51:36 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-17 
+2014/12/02 13:51:36 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2014/12/02 13:51:36 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2014/12/02 13:51:39 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2014/12/02 13:51:39 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2014/12/02 13:51:39 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2014/12/02 13:51:39 INFO  - jmeter.engine.StandardJMeterEngine: Starting 20 threads for group Thread Group. 
+2014/12/02 13:51:39 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2014/12/02 13:51:39 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 20 ramp-up 0 perThread 0.0 delayedStart=false 
+2014/12/02 13:51:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2014/12/02 13:51:39 WARN  - kg.apc.jmeter.timers.VariableThroughputTimer: No free threads left in worker pool, made  0/5.0 samples 
+2014/12/02 13:51:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2014/12/02 13:51:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2014/12/02 13:51:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2014/12/02 13:51:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2014/12/02 13:51:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-7 
+2014/12/02 13:51:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-8 
+2014/12/02 13:51:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-9 
+2014/12/02 13:51:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-10 
+2014/12/02 13:51:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-11 
+2014/12/02 13:51:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-12 
+2014/12/02 13:51:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-6 
+2014/12/02 13:51:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-13 
+2014/12/02 13:51:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-14 
+2014/12/02 13:51:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-15 
+2014/12/02 13:51:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-16 
+2014/12/02 13:51:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-17 
+2014/12/02 13:51:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-18 
+2014/12/02 13:51:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-19 
+2014/12/02 13:51:39 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2014/12/02 13:51:39 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2014/12/02 13:51:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-20 
