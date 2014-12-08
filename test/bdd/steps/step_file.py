@@ -1,12 +1,12 @@
 from lettuce import *
 from nose.tools import assert_equal, assert_in
 from webtest import TestApp
-from bank.account import Account
-from bank_app import app, bank
+from account import Account
+from bank_app import APP, BANK
 
 @step(u'I visit the homepage')
 def i_visit_the_homepage(step):
-    world.browser = TestApp(app)
+    world.browser = TestApp(APP)
     world.response = world.browser.get('http://localhost:5000/')
     assert_equal(world.response.status_code, 200)
 
@@ -25,10 +25,10 @@ def then_i_see_a_balance_of_group1(step, expected_balance):
 @step(u'I create account "([^"]*)" with balance of "([^"]*)"')
 def i_create_account_with_balance_of_group1(step, account_number,balance):
     a = Account(account_number, balance)
-    bank.add_account(a)
+    BANK.add_account(a)
 
 @step(u'I create the following account:')
 def i_create_the_following_account(step):
     for row in step.hashes:
         a = Account(row['account_number'], row['balance'])
-        bank.add_account(a)
+        BANK.add_account(a)
