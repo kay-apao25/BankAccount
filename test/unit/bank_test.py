@@ -17,17 +17,17 @@ class BankTest(unittest.TestCase):
         account_2 = Account("002", 100)
         
         self.bank.add_account(account_1)
-        self.bank.add_account(account_2)   
+        self.bank.add_account(account_2)
         
         self.assertEqual(len(self.bank.accounts),2)
+        #self.assertEqual(len(self.bank.accounts),500)
 
-    #def test_get_account_balance(self):
-        
-    #    account_1 = Account("001", 50)
+    def test_get_account_balance(self):
+        account_1 = Account("001", 50)
 
-    #    self.bank.add_account(account_1)
+        self.bank.add_account(account_1)
 
-    #    self.assertEqual(self.bank.get_account_balance("001"), 50)
+        self.assertEqual(self.bank.get_account_balance("001"), 50)
 
     def test_withdraw_from_account(self):
 

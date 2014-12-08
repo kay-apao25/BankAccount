@@ -5,7 +5,7 @@ class Bank(object):
     def add_account(self, account):
         self.accounts[account.account_number] = account.balance
 
-    def get_account_balance(self, account_number):
+    def get_account_balance(self, account_number):#pragma:nocover
         return self.accounts.get(account_number)
 
     def withdraw_from(self, account_number, amount):
