@@ -1,2 +1,129 @@
-************* Module bank/
-bank/:1:[F0001(fatal), ] No module named bank/
+************* Module bank
+bank/__init__.py:1:[C0111(missing-docstring), ] Missing module docstring
+************* Module bank.bank_app
+bank/bank_app.py:17:[I0011(locally-disabled), ] Locally disabling invalid-name (C0103)
+bank/bank_app.py:3:[W0403(relative-import), ] Relative import 'account', should be 'bank.account'
+bank/bank_app.py:4:[W0403(relative-import), ] Relative import 'bank', should be 'bank.bank'
+************* Module bank.bank
+bank/bank.py:1:[C0303(trailing-whitespace), ] Trailing whitespace
+bank/bank.py:1:[C0111(missing-docstring), ] Missing module docstring
+bank/bank.py:1:[C0111(missing-docstring), Bank] Missing class docstring
+bank/bank.py:5:[C0111(missing-docstring), Bank.add_account] Missing method docstring
+bank/bank.py:8:[C0111(missing-docstring), Bank.get_account_balance] Missing method docstring
+bank/bank.py:11:[C0111(missing-docstring), Bank.withdraw_from] Missing method docstring
+************* Module bank.account
+bank/account.py:1:[C0111(missing-docstring), ] Missing module docstring
+bank/account.py:1:[C0111(missing-docstring), Account] Missing class docstring
+bank/account.py:1:[R0903(too-few-public-methods), Account] Too few public methods (0/2)
+
+
+Report
+======
+31 statements analysed.
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |9      |9        |=          |
++-----------+-------+---------+-----------+
+|refactor   |1      |1        |=          |
++-----------+-------+---------+-----------+
+|warning    |2      |2        |=          |
++-----------+-------+---------+-----------+
+|error      |0      |0        |=          |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++--------------+------+--------+---------+-----------+
+|module        |error |warning |refactor |convention |
++==============+======+========+=========+===========+
+|bank.bank_app |0.00  |100.00  |0.00     |0.00       |
++--------------+------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------------+------------+
+|message id             |occurrences |
++=======================+============+
+|missing-docstring      |8           |
++-----------------------+------------+
+|relative-import        |2           |
++-----------------------+------------+
+|trailing-whitespace    |1           |
++-----------------------+------------+
+|too-few-public-methods |1           |
++-----------------------+------------+
+|locally-disabled       |1           |
++-----------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 6.13/10 (previous run: 6.13/10, +0.00)
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |35     |89.74 |35       |=          |
++----------+-------+------+---------+-----------+
+|docstring |2      |5.13  |2        |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |0        |=          |
++----------+-------+------+---------+-----------+
+|empty     |2      |5.13  |2        |=          |
++----------+-------+------+---------+-----------+
+
+
+
+External dependencies
+---------------------
+::
+
+    flask (bank.bank_app)
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |4      |4          |=          |25.00       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |2          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |5      |5          |=          |40.00       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
